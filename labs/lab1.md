@@ -83,6 +83,48 @@ Fact id: 1 union all SELECT group_concat(username,"-",password) from users. (('M
 
 
 
+10. Lets try access SSH:ssh webmaster@192.168.0.4
+
+Logged in!
+
+<img width="711" height="669" alt="image" src="https://github.com/user-attachments/assets/055057d0-e656-49be-a062-0384171e1f09" />
+
+NEXT STEPS:
+
+<img width="458" height="162" alt="image" src="https://github.com/user-attachments/assets/17cce5cb-efca-4ad4-94bb-1f84ad0449c1" />
+
+decode password: 	
+
+echo "mercurymeandiameteris4880km" | base64 -d - 
+password: mercurymeandiameteris4880km
+
+<img width="791" height="224" alt="image" src="https://github.com/user-attachments/assets/88433e9e-f8fe-4e7f-a558-797d17822713" />
+
+<img width="950" height="315" alt="image" src="https://github.com/user-attachments/assets/cdc0c6d6-ccf4-4b2c-8bac-c24746c12bd6" />
+
+The first command will create a symbolic link between tail an vi.
+Then the second command will update PATH variable with our new PATH. And the third command will execute the shell script with our current PATH.
+
+<img width="910" height="856" alt="image" src="https://github.com/user-attachments/assets/25e38056-54ff-453a-8e9a-b7b7a6a1433f" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
