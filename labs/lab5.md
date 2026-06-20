@@ -120,7 +120,7 @@ In conclusion, HoneyTokens and CanaryTokens do not replace traditional security 
 * CanaryTokens: https://canarytokens.org/nest/
 * CanaryTokens GitHub Repository: https://github.com/thinkst/canarytokens
 * Tracebit: https://tracebit.com/
-* Class 05 — Defense, from the theoretical course notes.
-* Class 06 — Network Security, from the theoretical course notes.
+* Class 05 — Defense
+* Class 06 — Network Security
    
 
