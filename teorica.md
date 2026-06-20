@@ -1,4 +1,4 @@
-# Security in Information Systems — Theoretical Notes
+#  Security in Computer Systems — Theoretical Notes
 
 ## Index
 
