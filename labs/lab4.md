@@ -18,7 +18,6 @@ The objective of this lab is to describe a hypothetical network attack against t
 
 The network includes internet access, a firewall, a router, wireless clients, wired clients, servers, and a printer. The goal is to explain a possible attack vector, how the attacker could gain access, how privileges could be increased, what the impact could be, and how the attack could be prevented.
 
----
 
 ## 2. Network Scenario
 
@@ -28,7 +27,6 @@ In the example network, wireless clients connect to the internal infrastructure 
 
 This is relevant because attack vectors can come from the outside, from the inside, or through the human factor. In this case, the wireless network becomes the first entry point into the internal environment.
 
----
 
 ## 3. Attack Description
 
@@ -49,7 +47,6 @@ The attack could happen in the following way:
 5. **Lateral Movement**
    Once the attacker has stronger access, they may move from the wireless segment to wired clients, servers, or the printer. If the network is not segmented, the initial wireless access can become a path to sensitive internal systems.
 
----
 
 ## 4. Possible Consequences
 
@@ -64,7 +61,6 @@ A successful attack could have several consequences:
 | Lateral movement        | One compromised device could lead to more compromised systems. |
 | Loss of confidentiality | Internal data and communications could be exposed.             |
 
----
 
 ## 5. Prevention Measures
 
@@ -81,7 +77,6 @@ To reduce the risk of this attack, the organization should apply the following c
 | User awareness               | Train users to avoid fake Wi-Fi networks, phishing, and suspicious login pages.       |
 | Regular updates              | Keep clients, servers, printers, and network devices patched.                         |
 
----
 
 ## 6. References
 
@@ -121,8 +116,6 @@ This lab is based on the theoretical concepts from:
   * Port scanning
   * DNS and SSL interception
   * Firewalls, VPNs, and honeypots
-
----
 
 ## 7. Conclusion
 
